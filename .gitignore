@@ -1,0 +1,58 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+env/
+ENV/
+.pyenv/
+
+# Python distribution files
+*.egg-info/
+*.egg
+*.whl
+*.tar.gz
+
+# Model and binary artifacts
+*.onnx
+*.pt
+*.pth
+*.h5
+*.pb
+*.tflite
+*.bak
+*.tmp
+*.cache
+
+# Data and generated content
+data/
+archive/hash_chain.db
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.tmp
+*.temp
+
+# Ignore model directories
+edge/models/
+cloud/models/
